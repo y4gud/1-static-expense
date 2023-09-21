@@ -8,6 +8,16 @@
   background-color: #4b4b4b;
 }
 
+.expense-item2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  background-color: #bcec0f;
+}
+
 .expense-item__description {
     display: flex;
     flex-direction: column;
@@ -52,4 +62,19 @@
       font-size: 1.25rem;
       padding: 0.5rem 1.5rem;
     }
+  }
+
+  .btn {
+    background-color: #a30fe7;
+    color: white;
+    padding: 0.5rem;
+    margin: 0.3rem;
+    border-radius: 6px;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.5);
+  }
+
+  .btn:hover {
+    cursor: pointer;
+    background-color: #40005d;
+    border: 1px solid white;
   }
